@@ -14,9 +14,11 @@ custom hook for now playing movies
 create a movie slice
 updated store with movie data
 # Mainconatainer
- fetch data for trailer viedo
- update store with trailer viedo
-  Embedded youtube and make it autoplay and mute
+fetch data for trailer viedo
+update store with trailer viedo
+Embedded youtube and make it autoplay and mute
+# Secondary Container
+Added various categories of movies in SecondaryConatiner 
   
 # Project Structure
   -without signIn
