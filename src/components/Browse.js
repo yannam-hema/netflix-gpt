@@ -1,29 +1,24 @@
 import Header from "./Header";
 import { signOut } from "firebase/auth";
 import { auth } from "../Utils/firebase";
-import { useNavigate } from "react-router-dom";
-
+import useNowPlayingMovies from "../CustomHooks/useNowPlayingMovies"
+import MainContainer from "./MainContainer";
+import SecondaryConatiner from "./SeconndaryContainer";
 const Browse = () => {
-  const navigate = useNavigate();
-
+useNowPlayingMovies();
   const handleSignOut= () => {
     signOut(auth)
       .then(() => {
-        // Navigate to the main page after successful sign out
-        navigate("/");
-        console.log("sucess");
+
       })
       .catch((error) => {
-        console.error("Sign out error: ", error);
-        // Optionally navigate to an error page or handle the error
-        navigate("/Error");
-        console.log("error");
+        return error;
       });
   };
 
   return (
     <div>
-      <div className="flex justify-between">
+      <div className="flex justify-between absolute">
         <div>
       <Header />
       </div>
@@ -33,6 +28,9 @@ const Browse = () => {
       </button>
       </div>
       </div>
+
+      <MainContainer/>
+      <SecondaryConatiner/>
     </div>
   );
 };
