@@ -24,7 +24,7 @@ const Browse = () => {
         <Header />
         <button
           onClick={handleSignOut}
-          className="cursor-pointer text-xl font-bold ml-96 m-12 text-white z-10"
+          className=" m-8 cursor-pointer text-xl font-bold md:m-10 text-white bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg absolute right-0 z-10"
         >
           Sign Out
         </button>

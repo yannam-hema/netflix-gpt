@@ -63,12 +63,12 @@ const Navigate=useNavigate();
         <Header />
       </div>
       <img
-        className="absolute"
+        className="absolute h-screen w-screen object-cover"
         src={BackGround_Image}
         alt="Background image"
       />
 
-      <form className="absolute bg-black text-white w-3/12 p-12 my-40 mx-auto right-0 left-0 bg-opacity-75">
+      <form className=" w-3/4 absolute bg-black text-white md:w-3/12 p-12 my-40 mx-auto right-0 left-0 bg-opacity-75">
         <h1 className="m-2 font-bold text-3xl">{isSignIn ? "Sign In" : "Sign Up"}</h1>
         {!isSignIn && (
           <input

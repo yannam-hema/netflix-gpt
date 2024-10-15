@@ -24,7 +24,7 @@ const Header = () => {
   }, [dispatch, navigate]);
 
   return (
-    <div className="absolute p-4 bg-gradient-to-b from-black z-10">
+    <div className="absolute p-4 z-10">
       <img
         src={Netflix_LOGO}
         className="w-48"
