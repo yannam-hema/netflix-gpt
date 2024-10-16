@@ -13,6 +13,7 @@ Get data from TMDB now playing movies lists API
 custom hook for now playing movies
 create a movie slice
 updated store with movie data
+Made the Web page Responsive
 # Mainconatainer
 fetch data for trailer viedo
 update store with trailer viedo
