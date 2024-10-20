@@ -33,7 +33,6 @@ const Navigate=useNavigate();
       createUserWithEmailAndPassword(auth, email.current.value, password.current.value)
         .then((userCredential) => {
           const user = userCredential.user;
-          console.log(user);
           setDisplayMessage("Registration successful!");
          Navigate("/browse");
         })

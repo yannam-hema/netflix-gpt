@@ -13,6 +13,8 @@ Get data from TMDB now playing movies lists API
 custom hook for now playing movies
 create a movie slice
 updated store with movie data
+Created a page for GPT search
+made that page used in multiple languages
 # Mainconatainer
 fetch data for trailer viedo
 update store with trailer viedo

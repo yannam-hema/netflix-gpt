@@ -4,16 +4,16 @@ import usePopularMovies from "../CustomHooks/usePopularMovies.js";
 import useTrendingMovies from "../CustomHooks/useTrendingMovies.js";
 import useUpComingMovies from "../CustomHooks/useUpComingMovies.js";
 const ViedoPlaying=({movieId})=>{
-    useNowPlayingTeaser();
+    useNowPlayingTeaser({movieId});
     usePopularMovies();
     useTrendingMovies();
     useUpComingMovies();
-    const viedoKey=useSelector(state=>state.movies?.nowPlayingTeaser);
+    const videoKey=useSelector(store=>store.movies?.nowPlayingTeaser);
     return (
         <div className="">
            {/* here the viedo is not working  */}
            {/* added default key instead of that we shoul use viedoKey?.key */}
-    <iframe className=" -mt-10 md:-mt-28 w-screen aspect-video" src={"https://www.youtube.com/embed/WxwKzsklvJo?&autoplay=1&mute=1"}
+    <iframe className=" -mt-10 md:-mt-28 w-screen aspect-video" src={`https://www.youtube.com/embed/${videoKey}?autoplay=1&mute=1`}
      title="YouTube video player" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin" >
