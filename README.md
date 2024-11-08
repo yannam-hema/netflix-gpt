@@ -13,6 +13,12 @@ Get data from TMDB now playing movies lists API
 custom hook for now playing movies
 create a movie slice
 updated store with movie data
+Created GPTSearch button in browse page
+After clicking on GptSearch Button navigate to gptsearch page
+Created search bar to search any type of movies
+Integrated open api key to fetch movie results based on search value
+search for movies
+And finally displaying it in the gpt search page
 # Mainconatainer
 fetch data for trailer viedo
 update store with trailer viedo
@@ -26,6 +32,8 @@ Added various categories of movies in SecondaryConatiner
       -Header
       -Login Form
          -Form Validation--->useRef Hook
+      Browse Page
+      GptSearch Page
 
 
 
