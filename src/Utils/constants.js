@@ -45,4 +45,4 @@ export const LANGUAGES=[
 
 
 
-export const open_api_key="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"
+export const open_api_key=process.env.REACT_APP_OPENAI_KEY;
