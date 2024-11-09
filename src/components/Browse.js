@@ -38,6 +38,7 @@ const Browse = () => {
       <div className="flex justify-between w-full absolute top-0">
         <Header />
         <div className="flex items-center absolute right-0 z-10">
+          {showGptSearch &&
           <select
             className="flex justify-center mt-10 p-2 mr-4"
             onChange={handleLanguageChange}  // Handle change event
@@ -48,6 +49,7 @@ const Browse = () => {
               </option>
             ))}
           </select>
+          }
           <button
             onClick={handleGptSearch}
             className="mr-4 mt-10 cursor-pointer text-xl font-bold text-white bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg"
