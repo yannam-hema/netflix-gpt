@@ -8,7 +8,6 @@ const GptMovieList = () => {
         return null;
     }
 
-    console.log(Gptmovies);
 
     return (
         <div className="text-white bg-black bg-opacity-85 ">
