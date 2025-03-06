@@ -5,7 +5,7 @@ import ViedoPlaying from "./ViedoPlaying";
 const MainContainer=()=>{
     const movie=useSelector(store=>store.movies?.nowPlayingMovies)
     if(!movie) return ;
-    const firstMovie=movie[2];
+    const firstMovie=movie[6];
     const{title,overview,id}=firstMovie;
    return ( 
     <div>
