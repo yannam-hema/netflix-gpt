@@ -36,5 +36,20 @@
       -->GptSearch Page
 
 
+## 🚀 Features
 
-# Features
+- AI-powered movie/TV show recommendations
+- Search interface to ask questions about movies or genres
+- Clean and responsive UI
+- Lazy loading for better performance
+- Integrated Redux for state management
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, JavaScript, CSS
+- **State Management:** Redux Toolkit
+- **AI Integration:** GPT API (OpenAI)
+- **Version Control:** Git & GitHub
+
+
+
