@@ -34,8 +34,7 @@
          -->Form Validation--->useRef Hook
       -->Browse Page
       -->GptSearch Page
-
-
+      
 ## 🚀 Features
 
 - AI-powered movie/TV show recommendations
