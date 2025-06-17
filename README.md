@@ -4,7 +4,8 @@
 3.Routing 
 4.Firebase Setup
 5.Deploying app to production
-6.create signUp userAccount
+6.create signUp userAccount![NetflixGpt-SigninPage](https://github.com/user-attachments/assets/5b066d5c-95f3-4f61-b0bc-91bedf6041f3)
+
 7.implement user signIn
 8.create reduxStore with userSlice
 9.Implemented SignOut
@@ -50,5 +51,6 @@
 - **AI Integration:** GPT API (OpenAI)
 - **Version Control:** Git & GitHub
 
+![image]
 
 
